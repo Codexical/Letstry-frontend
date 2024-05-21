@@ -9,6 +9,14 @@ const routes = [
       title: "LetsTry",
     },
   },
+  {
+    path: "/rollcall",
+    name: "Rollcall",
+    component: () => import("../views/rollCall.vue"),
+    meta: {
+      title: "LetsTry點名",
+    },
+  },
 ];
 
 const router = createRouter({
